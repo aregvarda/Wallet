@@ -14,6 +14,7 @@ struct ContentView: View {
                 HeaderView()
                 CardListVIew()
                 BalanceView()
+                TransferMoneyView()
                 Spacer()
             }.padding(25)
         }
