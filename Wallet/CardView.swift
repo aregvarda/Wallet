@@ -20,6 +20,12 @@ struct CardView: View {
             .padding(.horizontal, 10)
             .padding(.top, 5)
             Spacer()
+            Text("$\(card.balance)")
+                .foregroundColor(card.textColor)
+                .fontWeight(.bold)
+            Text(card.cardNumber)
+                .foregroundColor(card.textColor)
+                .font(.callout)
         }
         .padding(.vertical, 10)
         .background(card.backgroundColor)

@@ -18,7 +18,7 @@ struct CardListVIew: View {
             Spacer()
             Button("Add new") {}
             .font(.callout)
-            .foregroundColor(.primary)
+            .foregroundColor(Color.primaryPurple)
             .padding(.trailing)
         }
     }
@@ -30,6 +30,9 @@ struct CardListVIew: View {
                 HStack(spacing: 10) {
                     ForEach(wallet.cards.indices, id: \.self) { index in
                         CardView(card:wallet.cards[index])
+                            .onTapGesture {
+                                <#code#>
+                            }
                     }
                 }
             }
