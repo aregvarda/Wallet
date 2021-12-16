@@ -15,6 +15,7 @@
 		C8B133E2276B5B380024754D /* CardListVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B133E1276B5B380024754D /* CardListVIew.swift */; };
 		C8B133E4276B5B990024754D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B133E3276B5B990024754D /* Card.swift */; };
 		C8B133E6276B62580024754D /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B133E5276B62580024754D /* MockData.swift */; };
+		C8B133E8276B812D0024754D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B133E7276B812D0024754D /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C8B133E1276B5B380024754D /* CardListVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListVIew.swift; sourceTree = "<group>"; };
 		C8B133E3276B5B990024754D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C8B133E5276B62580024754D /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		C8B133E7276B812D0024754D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				C8B133E3276B5B990024754D /* Card.swift */,
 				C8B133E1276B5B380024754D /* CardListVIew.swift */,
+				C8B133E7276B812D0024754D /* CardView.swift */,
 				C8B133D3276B522A0024754D /* ContentView.swift */,
 				C8B133DF276B52E90024754D /* HeaderView.swift */,
 				C8B133E5276B62580024754D /* MockData.swift */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B133E8276B812D0024754D /* CardView.swift in Sources */,
 				C8B133D4276B522A0024754D /* ContentView.swift in Sources */,
 				C8B133E6276B62580024754D /* MockData.swift in Sources */,
 				C8B133E0276B52E90024754D /* HeaderView.swift in Sources */,

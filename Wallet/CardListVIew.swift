@@ -13,15 +13,26 @@ struct CardListVIew: View {
     var headerView: some View {
         HStack {
             Text("Your cards")
+                .font(.title2)
+                .fontWeight(.bold)
             Spacer()
             Button("Add new") {}
+            .font(.callout)
+            .foregroundColor(.primary)
+            .padding(.trailing)
         }
     }
     
     var body: some View {
         VStack {
             headerView
-            Spacer()
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 10) {
+                    ForEach(wallet.cards.indices, id: \.self) { index in
+                        Text(wallet.cards[index].cardNumber)
+                    }
+                }
+            }
         }
     }
 }
@@ -29,5 +40,6 @@ struct CardListVIew: View {
 struct CardListVIew_Previews: PreviewProvider {
     static var previews: some View {
         CardListVIew()
+            .environmentObject(Wallet())
     }
 }
