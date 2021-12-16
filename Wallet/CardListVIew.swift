@@ -31,7 +31,10 @@ struct CardListVIew: View {
                     ForEach(wallet.cards.indices, id: \.self) { index in
                         CardView(card:wallet.cards[index])
                             .onTapGesture {
-                                <#code#>
+                                wallet.cards.indices.forEach { index in
+                                    wallet.cards[index].isSelected = false
+                                }
+                                wallet.cards[index].isSelected.toggle()
                             }
                     }
                 }

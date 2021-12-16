@@ -17,6 +17,8 @@
 		C8B133E6276B62580024754D /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B133E5276B62580024754D /* MockData.swift */; };
 		C8B133E8276B812D0024754D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B133E7276B812D0024754D /* CardView.swift */; };
 		C8B133EA276B88960024754D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B133E9276B88960024754D /* Color+Extension.swift */; };
+		C8B133EC276BA5460024754D /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B133EB276BA5460024754D /* BalanceView.swift */; };
+		C8B133EE276BB5030024754D /* HorizontalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B133ED276BB5030024754D /* HorizontalProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		C8B133E5276B62580024754D /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		C8B133E7276B812D0024754D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C8B133E9276B88960024754D /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		C8B133EB276BA5460024754D /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		C8B133ED276BB5030024754D /* HorizontalProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +71,9 @@
 				C8B133E1276B5B380024754D /* CardListVIew.swift */,
 				C8B133E7276B812D0024754D /* CardView.swift */,
 				C8B133E9276B88960024754D /* Color+Extension.swift */,
+				C8B133EB276BA5460024754D /* BalanceView.swift */,
 				C8B133D3276B522A0024754D /* ContentView.swift */,
+				C8B133ED276BB5030024754D /* HorizontalProgressView.swift */,
 				C8B133DF276B52E90024754D /* HeaderView.swift */,
 				C8B133E5276B62580024754D /* MockData.swift */,
 				C8B133D1276B522A0024754D /* WalletApp.swift */,
@@ -160,7 +166,9 @@
 				C8B133E6276B62580024754D /* MockData.swift in Sources */,
 				C8B133E0276B52E90024754D /* HeaderView.swift in Sources */,
 				C8B133E4276B5B990024754D /* Card.swift in Sources */,
+				C8B133EE276BB5030024754D /* HorizontalProgressView.swift in Sources */,
 				C8B133E2276B5B380024754D /* CardListVIew.swift in Sources */,
+				C8B133EC276BA5460024754D /* BalanceView.swift in Sources */,
 				C8B133D2276B522A0024754D /* WalletApp.swift in Sources */,
 				C8B133EA276B88960024754D /* Color+Extension.swift in Sources */,
 			);
