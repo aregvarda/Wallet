@@ -10,7 +10,7 @@ import SwiftUI
 struct HeaderView: View {
     var body: some View {
         HStack {
-            VStack(alignment: .leading, spacing: <#T##CGFloat?#>, content: <#T##() -> _#>) {
+            VStack(alignment: .leading) {
                 Text("Good Morning")
                     .font(.callout)
                     .foregroundColor(Color(.systemGray3))
