@@ -25,17 +25,40 @@ struct BalanceView: View {
         }
     }
     
+    var incomeView: some View {
+        HStack(spacing: 10) {
+            Image(systemName: "arrow.down")
+        }
+        Text("In")
+    }
+    
+    var expensesView: some View {
+        Text("Out")
+    }
+    
+    
     var body: some View {
         VStack {
             headerView
-            HorizontalProgressView()
+            HorizontalProgressView(percentage: $incomePercentage)
+            HStack {
+                incomeView
+                Spacer()
+                expensesView
+            }
             Spacer()
-        }.onChange(of: wallet.selectedCard) { _ in
+        }
+        .onAppear {
+            update()
+        }
+        .onChange(of: wallet.selectedCard) { _ in
             update()
         }
     }
     private func update() {
-        incomePercentage = wallet.selectedCard.incomePercentage
+        withAnimation(.spring(response: 2)) {
+            incomePercentage = wallet.selectedCard.incomePercentage
+        }
     }
 }
 
