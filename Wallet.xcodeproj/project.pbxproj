@@ -11,6 +11,7 @@
 		C8B133D4276B522A0024754D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B133D3276B522A0024754D /* ContentView.swift */; };
 		C8B133D6276B522D0024754D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B133D5276B522D0024754D /* Assets.xcassets */; };
 		C8B133D9276B522D0024754D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B133D8276B522D0024754D /* Preview Assets.xcassets */; };
+		C8B133E0276B52E90024754D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B133DF276B52E90024754D /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C8B133D3276B522A0024754D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8B133D5276B522D0024754D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8B133D8276B522D0024754D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8B133DF276B52E90024754D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		C8B133D0276B522A0024754D /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
-				C8B133D1276B522A0024754D /* WalletApp.swift */,
 				C8B133D3276B522A0024754D /* ContentView.swift */,
+				C8B133DF276B52E90024754D /* HeaderView.swift */,
+				C8B133D1276B522A0024754D /* WalletApp.swift */,
 				C8B133D5276B522D0024754D /* Assets.xcassets */,
 				C8B133D7276B522D0024754D /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8B133D4276B522A0024754D /* ContentView.swift in Sources */,
+				C8B133E0276B52E90024754D /* HeaderView.swift in Sources */,
 				C8B133D2276B522A0024754D /* WalletApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
