@@ -29,7 +29,7 @@ struct CardListVIew: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 10) {
                     ForEach(wallet.cards.indices, id: \.self) { index in
-                        Text(wallet.cards[index].cardNumber)
+                        CardView(card:wallet.cards[index])
                     }
                 }
             }

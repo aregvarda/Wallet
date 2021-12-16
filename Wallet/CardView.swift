@@ -8,13 +8,29 @@
 import SwiftUI
 
 struct CardView: View {
+    let card: Card
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Spacer()
+                Image(card.imageName)
+                    .resizable()
+                    .frame(width: 20, height: 20)
+            }
+            .padding(.horizontal, 10)
+            .padding(.top, 5)
+            Spacer()
+        }
+        .padding(.vertical, 10)
+        .background(card.backgroundColor)
+        .cornerRadius(10)
+        .frame(width: 110, height: 150)
     }
 }
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView()
+        CardListVIew()
+            .environmentObject(Wallet())
     }
 }
