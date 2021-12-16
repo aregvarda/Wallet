@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BalanceView: View {
     @EnvironmentObject var wallet: Wallet
+    @State private var incomePercentage = 0
     
     var headerView: some View {
         HStack {
@@ -29,7 +30,12 @@ struct BalanceView: View {
             headerView
             HorizontalProgressView()
             Spacer()
+        }.onChange(of: wallet.selectedCard) { _ in
+            update()
         }
+    }
+    private func update() {
+        incomePercentage = wallet.selectedCard.incomePercentage
     }
 }
 
